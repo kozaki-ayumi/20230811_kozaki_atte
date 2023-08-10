@@ -1,0 +1,43 @@
+.attendance__message {
+    color: #0f5132;
+    font-size: 17px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.message {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.stamp__content-work,
+.stamp__content-rest {
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stamp__panel {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+.stamp__button-submit {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    width: 70%;
+    height: 140px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+

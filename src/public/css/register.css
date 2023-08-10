@@ -1,0 +1,73 @@
+.register-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.register-form__heading {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+}
+
+.form__group {
+    margin-bottom: 5px;
+}
+
+.form__error {
+    height: 20px;
+    font-size: 12px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    appearance: none;
+}
+
+.form__button {
+    margin-top: 20px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(87, 87, 240);
+    color: #fff;
+    cursor: pointer;
+}
+
+.login__transfer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login__transfer-text {
+    color: rgb(130, 129, 129);
+    font-size: 14px;
+}
+
+.login__link {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.login__button-submit {
+    text-decoration: none;
+    font-size: 15px;
+}

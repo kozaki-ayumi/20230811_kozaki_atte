@@ -1,0 +1,23 @@
+.name{
+   text-align: center;
+   margin-top: 35px;
+   font-size: 20px;
+}
+
+.attendance__table {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+
+}
+
+.table,th,td {
+    border-top: 1px solid black;
+}
+
+.pagenate {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
