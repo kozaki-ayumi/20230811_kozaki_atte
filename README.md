@@ -42,7 +42,9 @@ laravel Framework 8.83.27
 
 # 環境構築
 ①Githubに開発したlaravelのファイルがありますので、以下をコマンドラインで入力してクローンしてください.
+
 $ git clone git@github.com:kozaki-ayumi/20230811_kozaki_atte.git
+
 ②コマンドライン上に以下を入力し、Dockerにコンテナを作成してください。
 
 $ docker-compose up -d --build
