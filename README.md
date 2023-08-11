@@ -17,10 +17,15 @@
 
 ## 機能一覧
 ・新規会員登録機能（メール認証あり）
+
 ・ログイン機能
+
 ・勤務開始、終了時間の打刻
+  
 ・休憩開始、終了時間の打刻（1日何回でも可能）
+
 ・日付別勤怠表の表示
+
 ・会員別勤怠表の表示
 
 ## 使用技術
@@ -41,19 +46,33 @@ $ git clone git@github.com:kozaki-ayumi/20230811_kozaki_atte.git
 ②コマンドライン上に以下を入力し、Dockerにコンテナを作成してください。
 
 $ docker-compose up -d --build
+
 ③PHPコンテナ内にログインしてください。
+
 $ docker-compose exec php bash
+
 ④必要なパッケージをインストールしてください。
+
 $ composer install
+
 ⑤ .envファイルを作成してください。 .env.exampleファイルをコピーして作成できます。
+
 $ cp .env.example .env
+
 ⑥ ⑤で作成した .envファイルの11行目以降を下記のように修正してください。
+
 
 // 前略
 DB_CONNECTION=mysql
+
 DB_HOST=mysql
+
 DB_PORT=3306
+
 DB_DATABASE=laravel_db
+
 DB_USERNAME=laravel_user
+
 DB_PASSWORD=laravel_pass
+
 // 後略
