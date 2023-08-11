@@ -65,6 +65,7 @@ $ cp .env.example .env
 
 
 // 前略
+
 DB_CONNECTION=mysql
 
 DB_HOST=mysql
